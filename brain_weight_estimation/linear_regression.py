@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = (20.0, 10.0)
 
 # Reading Data
-data = pd.read_csv('D:/machine_learning/linear_regression/data.csv')
+data = pd.read_csv('data.csv')
 print(data.shape)
 data.head()
 
